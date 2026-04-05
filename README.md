@@ -54,7 +54,7 @@ We are currently scaling our infrastructure to maintain 99.9% uptime for our glo
 
 **Want to skip the line?** Click the button below to join the priority waitlist.
 
-[![Join the Waitlist](https://img.shields.io/badge/JOIN_THE_WAITLIST-Vibrant_Volt?style=for-the-badge&labelColor=000000)](https://your-website-link.com)
+[![Join the Waitlist](https://img.shields.io/badge/JOIN_THE_WAITLIST-Vibrant_Volt?style=for-the-badge&labelColor=000000)](https://kilo-landing.vercel.app/)
 
 ---
 
