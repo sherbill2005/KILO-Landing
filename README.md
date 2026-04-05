@@ -1,6 +1,7 @@
 # ⚡ KILO // THE VOICE-AI GYM COLLECTIVE
 
-![KILO App Interface](<img width="348" height="774" alt="image" src="https://github.com/user-attachments/assets/4bb00cbb-dc6e-42f9-9290-bd8251ab51ee" />)
+<img width="348" height="774" alt="image" src="https://github.com/user-attachments/assets/8b4bc4e2-ff7f-49c6-8b64-080a036ea3b6" />
+
 
 
 ### **Control your body with Voice.**
