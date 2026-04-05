@@ -1,0 +1,44 @@
+
+> ai-studio-applet@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.104:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 25s (1585 modules)
+ GET / 200 in 7289ms
+ GET / 200 in 26055ms
+ GET / 200 in 527ms
+ GET / 200 in 273ms
+ ✓ Compiled in 1013ms (709 modules)
+ GET / 200 in 164ms
+ ✓ Compiled in 4.6s (1585 modules)
+ ✓ Compiled in 2.1s (709 modules)
+ GET / 200 in 2123ms
+ ✓ Compiled in 1996ms (709 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 21.9s (1917 modules)
+ GET / 500 in 25947ms
+ GET / 200 in 965ms
+ GET / 200 in 430ms
+ GET / 200 in 398ms
+ ✓ Compiled in 18.5s (1933 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.4s (1828 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 8s (1924 modules)
+ GET / 500 in 66764ms
+ GET / 500 in 912ms
+ GET / 500 in 4853ms
+ GET / 500 in 664ms
+ ✓ Compiled in 7.7s (1837 modules)
+ GET / 200 in 776ms
+ GET / 200 in 103ms
+ GET / 200 in 77ms
+Terminate batch job (Y/N)? 
+[?25h

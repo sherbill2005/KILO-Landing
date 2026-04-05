@@ -1,0 +1,77 @@
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'
+    at async L (C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\server\app\page.js:45:90159) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'
+    at async (C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\server\pages\_error.js:8:14071) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'
+    at async L (C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\server\app\page.js:45:90159) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'
+    at async (C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\server\pages\_error.js:8:14071) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Zaid\Downloads\kilo---voice-first-workout-tracker\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Zaid\\Downloads\\kilo---voice-first-workout-tracker\\.next\\routes-manifest.json'
+}
