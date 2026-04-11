@@ -584,7 +584,8 @@ const Footer = () => (
         <div className="flex items-center gap-8">
           <Link href="/terms" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors font-medium">Terms of Service</Link>
           <Link href="/privacy" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors font-medium">Privacy Policy</Link>
-          <a href="mailto:support@kilo.app" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors font-medium">Contact</a>
+          <Link href="/refund" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors font-medium">Refund Policy</Link>
+          <a href="mailto:sherbill2005@gmail.com" className="text-sm text-gray-500 hover:text-[#CCFF00] transition-colors font-medium">Contact</a>
         </div>
         <div className="flex items-center gap-4">
           <a href="#" className="w-10 h-10 rounded-full bg-[#2D2D2D]/50 flex items-center justify-center text-gray-400 hover:text-[#CCFF00] hover:bg-[#2D2D2D]/80 transition-all border border-white/5">

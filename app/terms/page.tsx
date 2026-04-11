@@ -6,71 +6,49 @@ import { ArrowLeft, ShieldCheck } from 'lucide-react';
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-black text-white p-8 md:p-24">
+    <div className="min-h-screen bg-[#121212] text-white p-8 md:p-24 selection:bg-[#CCFF00]/30 selection:text-[#CCFF00]">
       <div className="max-w-3xl mx-auto">
-        <Link href="/" className="inline-flex items-center gap-2 text-blue-500 hover:text-blue-400 mb-12 transition-colors">
+        <Link href="/" className="inline-flex items-center gap-2 text-[#CCFF00] hover:opacity-80 mb-12 transition-opacity font-bold uppercase tracking-widest text-xs">
           <ArrowLeft className="w-4 h-4" /> Back to Landing Page
         </Link>
         
-        <div className="flex items-center gap-4 mb-8">
-          <div className="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center">
-            <ShieldCheck className="text-white w-6 h-6" />
+        <div className="flex items-center gap-4 mb-12">
+          <div className="w-12 h-12 bg-[#CCFF00]/10 border border-[#CCFF00]/20 rounded-2xl flex items-center justify-center">
+            <ShieldCheck className="text-[#CCFF00] w-6 h-6" />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight">Terms of Service</h1>
+          <h1 className="text-5xl font-black tracking-tighter uppercase italic">Terms of Service</h1>
         </div>
 
-        <div className="space-y-8 text-gray-400 leading-relaxed">
+        <div className="space-y-12 text-gray-400 leading-relaxed font-medium">
           <section>
-            <h2 className="text-xl font-semibold text-white mb-4">1. Acceptance of Terms</h2>
-            <p>
-              By accessing or using the Kilo mobile application and website, you agree to be bound by these Terms of Service. 
-              If you do not agree to these terms, please do not use our services.
+            <p className="text-xl text-white font-bold mb-6 italic">
+              By accessing the website at kilo-landing.vercel.app, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.
             </p>
           </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-4">2. Description of Service</h2>
+          <section className="bg-[#2D2D2D]/40 border border-white/5 rounded-3xl p-8 backdrop-blur-sm">
+            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Use License</h2>
             <p>
-              Kilo is a voice-first workout tracking application currently in development. 
-              We provide tools to help users log their physical training sessions using voice recognition technology.
+              Permission is granted to temporarily download one copy of the materials (information or software) on Kilo&apos;s website for personal, non-commercial transitory viewing only.
             </p>
           </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-4">3. User Responsibilities</h2>
+          <section className="bg-[#2D2D2D]/40 border border-white/5 rounded-3xl p-8 backdrop-blur-sm">
+            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Disclaimer</h2>
             <p>
-              You are responsible for your own physical safety while using Kilo. 
-              Always prioritize proper form and safety over app interaction. 
-              Kilo is not a medical device and does not provide professional medical advice.
+              The fitness tracking and AI suggestions provided by Kilo are for informational purposes only. Always consult with a healthcare professional before starting any new exercise program.
             </p>
           </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-4">4. Intellectual Property</h2>
+          <section className="bg-[#2D2D2D]/40 border border-white/5 rounded-3xl p-8 backdrop-blur-sm">
+            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Governing Law</h2>
             <p>
-              All content, features, and functionality of Kilo are the exclusive property of the developer. 
-              You may not reproduce, distribute, or create derivative works without explicit permission.
+              These terms and conditions are governed by and construed in accordance with the laws of Pakistan.
             </p>
           </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-4">5. Limitation of Liability</h2>
-            <p>
-              Kilo is provided &quot;as is&quot; without any warranties. 
-              The developer shall not be liable for any injuries, data loss, or damages resulting from the use of the application.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-4">6. Changes to Terms</h2>
-            <p>
-              We reserve the right to modify these terms at any time. 
-              Continued use of the service after changes constitutes acceptance of the new terms.
-            </p>
-          </section>
-
-          <div className="pt-12 border-t border-white/10 text-sm text-gray-600">
-            Last updated: April 2, 2026
+          <div className="pt-12 border-t border-white/5 text-[10px] text-gray-600 font-black uppercase tracking-[0.2em]">
+            Last updated: April 11, 2026
           </div>
         </div>
       </div>

@@ -1,9 +1,10 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Lock } from 'lucide-react';
+import { ArrowLeft, RotateCcw } from 'lucide-react';
 
-export default function PrivacyPage() {
+export default function RefundPage() {
   return (
     <div className="min-h-screen bg-[#121212] text-white p-8 md:p-24 selection:bg-[#CCFF00]/30 selection:text-[#CCFF00]">
       <div className="max-w-3xl mx-auto">
@@ -13,39 +14,36 @@ export default function PrivacyPage() {
         
         <div className="flex items-center gap-4 mb-12">
           <div className="w-12 h-12 bg-[#CCFF00]/10 border border-[#CCFF00]/20 rounded-2xl flex items-center justify-center">
-            <Lock className="text-[#CCFF00] w-6 h-6" />
+            <RotateCcw className="text-[#CCFF00] w-6 h-6" />
           </div>
-          <h1 className="text-5xl font-black tracking-tighter uppercase italic">Privacy Policy</h1>
+          <h1 className="text-5xl font-black tracking-tighter uppercase italic">Refund Policy</h1>
         </div>
 
         <div className="space-y-12 text-gray-400 leading-relaxed font-medium">
           <section>
             <p className="text-xl text-white font-bold mb-6 italic">
-              At Kilo, accessible from kilo-landing.vercel.app, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Kilo and how we use it.
+              Thank you for supporting the development of Kilo.
             </p>
           </section>
 
           <section className="bg-[#2D2D2D]/40 border border-white/5 rounded-3xl p-8 backdrop-blur-sm">
-            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Information We Collect</h2>
-            <p className="mb-4">
-              We collect workout data, body weight logs, and voice-input data purely to provide the core functionality of the AI-logging service.
-            </p>
+            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Digital Products & Subscriptions</h2>
             <p>
-              Payment processing is handled securely by our partner, Paddle, and we do not store your credit card or sensitive financial information on our servers.
+              Because our products are digital software delivered via internet download or cloud access, we generally offer a no-refund policy. Once the service is accessed or the support donation is made, it is considered consumed.
             </p>
           </section>
 
           <section className="bg-[#2D2D2D]/40 border border-white/5 rounded-3xl p-8 backdrop-blur-sm">
-            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">How We Use Your Information</h2>
+            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Exceptions</h2>
             <p>
-              We use the information we collect to provide, operate, and maintain our service, and to improve the AI&apos;s accuracy for your fitness tracking.
+              We believe in fairness. If you have experienced a technical issue that prevented you from using the service, please contact us within 7 days of purchase, and we will review your case for a manual refund.
             </p>
           </section>
 
           <section className="bg-[#2D2D2D]/40 border border-white/5 rounded-3xl p-8 backdrop-blur-sm">
-            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Contact Us</h2>
+            <h2 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Contact for Refunds</h2>
             <p>
-              If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at: <span className="text-[#CCFF00] font-bold">sherbill2005@gmail.com</span>
+              If you require a refund or have any questions, please contact us at: <span className="text-[#CCFF00] font-bold">sherbill2005@gmail.com</span>
             </p>
           </section>
 
